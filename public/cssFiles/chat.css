@@ -1,0 +1,99 @@
+*{
+	background-color: #FAEBD7;
+}
+
+.chat{
+	margin-left: 30px;
+	margin-top: 40px;
+	padding: 0px 3px 3px 0px;
+	overflow-y: scroll;
+	height: 300px;
+	border-style: double;
+	border-color: #FF7F50;
+	background-color: rgb(250, 209, 200);
+	width: 800px;
+	direction: ltr;
+	
+}
+
+.sendBtn {
+	width: 110px;
+	height: 30px;
+	padding: 0px;
+	border-color: #FF7F50;
+	background-color: #FF7F50;
+	position: absolute;
+}
+
+ul{
+	padding: 0 0 0 0;
+	list-style-type: none;
+	margin-top: 3px;
+	margin-bottom: 5px
+}
+
+ul li{
+	padding: 12px 8px 10px 15px;
+	font-size: 24px;
+	color: #B22222;
+	background-color: #BDB76B;
+	list-style-type: none;
+	width: 800px;
+	transition: 0.5s;
+	background-color: rgb(250, 209, 200);
+	margin-rigth: 0px;
+}
+
+input{
+	border-width: 3px;
+	border-style: solid;
+	border-color: #FF7F50;
+	width: 700px;
+    height: 30px;
+	margin-left: 30px;
+    font-size: 16px;
+	text-align: center;
+	color: #B22222;
+}
+
+h1{
+	text-align: center;
+	color: #FF7F50;
+}
+h2{
+	text-align: center;
+	color: #B22222;
+}
+p{
+	color: #B22222;
+	font-size: 22;
+	margin-left: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1px 1px 1px 1px;
+	font-family: "Lucida Console";
+	background-color: rgb(250, 209, 200);
+	
+}
+
+/*_____scroll___bar______*/
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #CD5C5C; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}

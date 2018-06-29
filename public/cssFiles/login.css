@@ -1,0 +1,46 @@
+* {
+	background-color: #FAEBD7;
+}
+
+p{
+	color: #B22222;
+	font-size: 22;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 1px 1px 1px 1px;
+	font-family: "Lucida Console";
+	float: left;
+}
+h1{
+	text-align: center;
+	color: #FF7F50;
+}
+h2{
+	text-align: center;
+	color: #B22222;
+}
+input {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #FF7F50;
+	width: 420px;
+    height: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+    font-size: 16px;
+	text-align: center;
+	color: #B22222;
+}
+button {
+	margin-left: 45%;
+	padding: 15px 20px 15px 20px;
+	color: #B22222;;
+}
+
+.login{
+	margin-top: 5%;
+	margin-left: 24%;
+	margin-right: 25%;
+}
